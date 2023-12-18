@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Znakomstva</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="bg-primary">
+
+  <img src="assets/images/left.svg" class="left-img" alt="left">
+  <img src="assets/images/right.svg" class="right-img" alt="right">
+
+
+  <!-- -------------------Navbar Starts--------------------->
+  <nav class="navbar d-flex ai-center jc-center w-full gap-2 bg-dark">
+    <h2 class="text-white font-16-500">Знакомства по всему миру</h2>
+
+    <img src="assets/images/united-states 1.svg" alt="amerika_logo">
+
+    <select class="text-white bg-transparent font-16-400">
+      <option>
+        Америка
+      </option>
+
+      <option>
+        Америка
+      </option>
+
+      <option>
+        Америка
+      </option>
+    </select>
+
+  </nav>
+  <!-- -------------------Navbar Ends--------------------->
+
+  <div class="container main">
+
+    <!------------------ Header Starts ------------------>
+    <header class="d-flex jc-end ai-center gap-3 my-3">
+      <div class="d-flex ai-center gap-2 font-22 mr-auto info">
+        <img src="assets/images/love-birds 1.svg" alt="main_logo">
+        <h3 class="text-white">Znakomstva.com</h3>
+      </div>
+      <button class="h-50 text-white bg-transparent font-16-400">Впервые здесь?</button>
+      <a href="pages/register.html"
+        class="text-white font-16-400 h-50 btn-outline-gradient-1 d-flex ai-center jc-center">
+        <span>Регистрация</span>
+      </a>
+    </header>
+    <!------------------ Header ends ------------------>
+
+    <!---------------- Login section starts-------------- -->
+    <section class="login">
+      <h1 class="text-white font-60">Знакомства без преград</h1>
+      <p class="text-white font-16-400">
+        Для современного мира сплочённость команды профессионалов однозначно фиксирует необходимость системы обучения
+        кадров,
+        соответствующей насущным потребностям.
+      </p>
+
+
+      <form class="mx-auto my-5">
+        <div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2 ">
+          <img src="assets/icons/message 1.svg" alt="">
+          <input class="h-full bg-transparent w-full text-secondary-light font-16-400" type="text"
+            placeholder="Введите электронную почту">
+        </div>
+
+
+        <div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2 ">
+          <img src="assets/icons/password 1.svg" alt="">
+          <input class="h-full bg-transparent text-secondary-light font-16-400 w-full" type="text"
+            placeholder="Введите пароль">
+          <img src="assets/icons/eye 1.svg" alt="">
+        </div>
+
+
+
+        <a href="pages/home.html"
+          class="bg-gradient-1 w-full text-white h-70 rounded d-flex ai-center jc-center">Войти</a>
+
+        <button id="forget-btn" type="button" class="text-link font-14-400 bg-transparent">
+          Я не помню пароль
+        </button>
+
+      </form>
+
+
+
+
+    </section>
+    <!-- --------------Login section ends-------------- -->
+
+    <!-- -------------Footer navigation starts------------- -->
+    <section class="footer-nav">
+      <ul>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Поддержка</a></li>
+        <li><a href="">Советы</a></li>
+        <li><a href="">Контакты</a></li>
+        <li><a href="">Правила оплаты</a></li>
+        <li class="ml-auto"><a href="">Политика обработки персональных данных</a></li>
+
+        <li class="pl-4">
+          <select>
+            <option>RU</option>
+            <option>UZB</option>
+            <option>ENG</option>
+          </select>
+        </li>
+
+        <li class="pl-4">© Company 2021</li>
+      </ul>
+    </section>
+    <!-- -------------Footer navigation ends------------- -->
+
+  </div>
+
+  <!-- --------/////////Modal window starts--------///////// -->
+  <div class="modal">
+    <div class="wrapper">
+
+      <h1 class="text-white ">Я не помню пароль</h1>
+      <p class="text-secondary-light font-16-400">Введи свой email и мы вышлем тебе инструкции по изменению пароля</p>
+
+
+      <div>
+        <div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2 ">
+          <img src="assets/icons/message 1.svg" alt="">
+          <input class="h-full bg-transparent w-full text-secondary-light font-16-400" type="text"
+            placeholder="Введите электронную почту">
+        </div>
+
+
+        <a href="./pages/home.html" class=" d-flex ai-center jc-center w-full text-white h-70 rounded bg-gradient-1">
+          Войти
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+  <!----------///////// Modal window ends--------///////// -->
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

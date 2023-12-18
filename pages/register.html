@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Znakomstva | Register</title>
+		<link rel="stylesheet" href="../styles/main.css" />
+	</head>
+
+	<body class="bg-primary">
+		<img src="../assets/images/left2.svg" class="left-img reg-left" alt="left" />
+		<img src="../assets/images/right2.svg" class="right-img reg-right" alt="right" />
+
+		<!-- -------------------Navbar Starts--------------------->
+		<nav class="navbar d-flex ai-center jc-center w-full gap-2 bg-dark">
+			<h2 class="text-white font-16-500">Знакомства по всему миру</h2>
+
+			<img src="../assets/images/united-states 1.svg" alt="amerika_logo" />
+
+			<select class="text-white bg-transparent font-16-400">
+				<option>Америка</option>
+
+				<option>Америка</option>
+
+				<option>Америка</option>
+			</select>
+		</nav>
+		<!-- -------------------Navbar Ends--------------------->
+
+		<div class="container main">
+			<!------------------ Header Starts ------------------>
+			<header class="d-flex jc-end ai-center gap-3 my-3">
+				<div class="d-flex ai-center gap-2 font-22 mr-auto info">
+					<img src="../assets/images/love-birds 1.svg" alt="main_logo" />
+					<h3 class="text-white">Znakomstva.com</h3>
+				</div>
+				<button class="h-50 text-white bg-transparent font-16-400">Уже есть аккаунт?</button>
+				<a href="../index.html" class="text-white font-16-400 h-50 btn-outline-gradient-1 d-flex ai-center jc-center">
+					<span>Войти</span>
+				</a>
+			</header>
+			<!------------------ Header ends ------------------>
+
+			<!-- Register section starts -->
+			<section class="register mx-auto my-4">
+				<h1 class="text-white font-36 tex-ce">Создай новый аккаунт</h1>
+				<p class="text-secondary-2 font-16-400">Присоединяйся к сообществу из 518 млн человек!</p>
+
+				<form class="register__form d-flex dir-col gap-1">
+					<div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2">
+						<img src="../assets/icons/user 1.svg" alt="" />
+						<input class="h-full bg-transparent w-full text-secondary-light font-16-400" type="text" placeholder="Ваше имя" />
+					</div>
+
+					<div class="d-flex dir-col gap-1">
+						<p class="text-secondary-2 font-14-400">Дата рождения</p>
+
+						<div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2">
+							<img src="../assets/icons/user 1.svg" alt="" />
+							<input class="h-full bg-transparent w-full text-secondary-light font-16-400" type="date" />
+						</div>
+					</div>
+
+					<div class="d-flex gap-2">
+						<button class="text-white font-16-400 h-70 btn-outline-gradient-1 d-flex ai-center jc-center bg-gradient-3 w-full">
+							<span>
+								<img src="../assets/images/men.svg" alt="" />
+							</span>
+						</button>
+
+						<button class="text-white font-16-400 h-70 btn-outline-gradient-1 d-flex ai-center jc-center w-full">
+							<span>
+								<img src="../assets/images/woman.svg" alt="" />
+							</span>
+						</button>
+					</div>
+
+					<div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2">
+						<img src="../assets/icons/message 1.svg" alt="" />
+						<input
+							class="h-full bg-transparent w-full text-secondary-light font-16-400"
+							type="text"
+							placeholder="Введите электронную почту"
+						/>
+					</div>
+
+					<div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2">
+						<img src="../assets/icons/password 1.svg" alt="" />
+						<input
+							class="h-full bg-transparent text-secondary-light font-16-400 w-full"
+							type="text"
+							placeholder="Введите пароль"
+						/>
+						<img src="../assets/icons/eye 1.svg" alt="" />
+					</div>
+
+					<a href="home.html" class="d-flex ai-center jc-center bg-gradient-1 w-full text-white h-70 rounded">Создать аккаунт</a>
+				</form>
+			</section>
+			<!-- Register section ends -->
+
+			<!-- -------------Footer navigation starts------------- -->
+			<section class="footer-nav">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Поддержка</a></li>
+					<li><a href="">Советы</a></li>
+					<li><a href="">Контакты</a></li>
+					<li><a href="">Правила оплаты</a></li>
+					<li class="ml-auto"><a href="">Политика обработки персональных данных</a></li>
+
+					<li class="pl-4">
+						<select>
+							<option>RU</option>
+							<option>UZB</option>
+							<option>ENG</option>
+						</select>
+					</li>
+
+					<li class="pl-4">© Company 2021</li>
+				</ul>
+			</section>
+			<!-- -------------Footer navigation ends------------- -->
+		</div>
+
+		<!-- --------/////////Modal window starts--------///////// -->
+		<div class="modal">
+			<div class="wrapper">
+				<h1 class="text-white">Я не помню пароль</h1>
+				<p class="text-secondary-light font-16-400">Введи свой email и мы вышлем тебе инструкции по изменению пароля</p>
+
+				<div>
+					<div class="h-70 bg-secondary w-full rounded d-flex ai-center jc-start px-3 gap-2">
+						<img src="assets/icons/message 1.svg" alt="" />
+						<input
+							class="h-full bg-transparent w-full text-secondary-light font-16-400"
+							type="text"
+							placeholder="Введите электронную почту"
+						/>
+					</div>
+
+					<button class="bg-gradient-1 w-full text-white h-70 rounded">Войти</button>
+				</div>
+			</div>
+		</div>
+		<!----------///////// Modal window ends--------///////// -->
+	</body>
+</html>
